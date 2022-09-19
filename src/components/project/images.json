@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_project_images",
+  "info": {
+    "displayName": "images"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "private": true
+    }
+  }
+}

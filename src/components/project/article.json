@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_project_articles",
+  "info": {
+    "displayName": "article",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "required": false
+    }
+  }
+}

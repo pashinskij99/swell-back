@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "slider_projectss",
+  "info": {
+    "singularName": "slider-projects",
+    "pluralName": "slider-projectss",
+    "displayName": "sliderProjects"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "items": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    }
+  }
+}

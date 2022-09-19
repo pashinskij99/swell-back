@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_project_rows",
+  "info": {
+    "displayName": "row"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string",
+      "default": "type",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "title",
+      "required": true
+    }
+  }
+}

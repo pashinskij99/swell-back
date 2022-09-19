@@ -1,0 +1,42 @@
+{
+  "name": "strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^2.11.3",
+    "@typescript-eslint/eslint-plugin": "^5.27.1"
+  },
+  "dependencies": {
+    "@strapi/plugin-graphql": "4.1.12",
+    "@strapi/plugin-i18n": "4.1.12",
+    "@strapi/plugin-users-permissions": "4.1.12",
+    "@strapi/provider-upload-aws-s3": "^4.1.12",
+    "@strapi/strapi": "4.1.12",
+    "babel-eslint": "^10.1.0",
+    "better-sqlite3": "7.4.6",
+    "eslint": "^8.17.0",
+    "knex": "0.21.21",
+    "objection": "^2.2.18",
+    "pg": "^8.7.3",
+    "strapi-plugin-config-sync": "^1.0.1",
+    "typescript": "^4.7.4"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "8695f5e8-1c2f-4fdc-bdeb-3953221698de"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
